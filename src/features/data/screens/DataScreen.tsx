@@ -10,3 +10,5 @@ const DataScreen: React.FC = () => {
         </View>
     );
 }
+
+export default DataScreen;
