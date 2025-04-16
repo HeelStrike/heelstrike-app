@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import Card from '../../../shared/components/Card';
 
-const WorkoutView: React.FC = () => {
+const WorkoutScreen: React.FC = () => {
     return (
         <ScrollView style={styles.container}>
             <Card title="Training Plan Progress">
@@ -13,6 +13,10 @@ const WorkoutView: React.FC = () => {
             <Card title="Upcoming Workouts">
                 <Text>Monday: Leg Day</Text>
                 <Text>Tuesday: Rest</Text>
+            </Card>
+
+            <Card title="Additional Card">
+                <Text>Week 3</Text>
             </Card>
         </ScrollView>
     );
@@ -26,4 +30,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default WorkoutView;
+export default WorkoutScreen;
