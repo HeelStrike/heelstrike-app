@@ -23,7 +23,8 @@ const styles = StyleSheet.create({
        padding: 16,
        borderRadius: 12,
        elevation: 4,
-       marginVertical: 8,
+       marginVertical: '3%', // Remember, 3 * 2 is 6, must refactor this asap, use global margin %s.
+       maxWidth: '100%',
    } as ViewStyle,
     title: {
        fontSize: 20,
