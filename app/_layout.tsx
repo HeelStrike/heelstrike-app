@@ -5,11 +5,11 @@ export default function Layout() {
   return (
       <Tabs>
           <Tabs.Screen
-            name="index"
+            name="maps/index"
             options={{
-              title: 'Home',
+              title: 'Maps',
               tabBarIcon: ({ color, size }) => (
-                  <Ionicons name="home-outline" size={size} color={color} />
+                  <Ionicons name="map-sharp" size={size} color={color} />
               ),
             }}
         />
