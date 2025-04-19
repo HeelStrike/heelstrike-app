@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { StyleSheet, View } from "react-native";
 import Mapbox, {MapView} from "@rnmapbox/maps";
-import { MAPBOXKEY } from "@/src/keys/key";
+import {MAPBOX_KEY} from "@/src/keys/key";
 
-Mapbox.setAccessToken(MAPBOXKEY);
+Mapbox.setAccessToken(MAPBOX_KEY);
 
 const styles = StyleSheet.create({
     page: {
