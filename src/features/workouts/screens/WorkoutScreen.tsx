@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
-import Card from '../../../shared/components/Card';
+import Card from '../../../shared/components/Cards/Card';
 
 const WorkoutScreen: React.FC = () => {
     return (
