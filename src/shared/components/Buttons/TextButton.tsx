@@ -33,20 +33,20 @@ const buttonContainer: ViewStyle = {
     padding: 10,
     margin: 5,
     backgroundColor: '#fff',
-    borderRadius: 35,
+    borderRadius: 5,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
     elevation: 4,
     borderWidth: 1,
-    borderColor: '#1c3dff',
+    borderColor: '#ececec',
     alignContent: 'center',
     justifyContent: 'center',
 };
 
 const buttonText: TextStyle = {
-    color: '#0051ff',
+    color: '#000000',
     fontSize: 11,
     alignContent: 'center',
     alignSelf: 'center',
