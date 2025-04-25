@@ -1,5 +1,7 @@
 import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
+import { Stack } from 'expo-router';
+import { enableScreens } from 'react-native-screens';
 
 export default function Layout() {
   return (
@@ -44,6 +46,15 @@ export default function Layout() {
               }}
           />
 
+          <Tabs.Screen
+              name="nutrition/index"
+              options={{
+                  title: 'Nutrition',
+                  tabBarIcon: ({ color, size }) => (
+                      <Ionicons name="fast-food-outline" size={size} color={color} />
+                  ),
+              }}
+              />
       </Tabs>
   );
 }
