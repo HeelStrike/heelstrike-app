@@ -24,6 +24,8 @@ const styles = StyleSheet.create({
         minWidth: '47%',
         minHeight: 160,
         marginVertical: '3%',
+        borderWidth: 1,
+        borderColor: '#ececec',
     } as ViewStyle,
     title: {
         fontSize: 20,

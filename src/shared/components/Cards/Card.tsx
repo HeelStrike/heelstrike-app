@@ -25,6 +25,9 @@ const styles = StyleSheet.create({
        elevation: 4,
        marginVertical: '3%', // Remember, 3 * 2 is 6, must refactor this asap, use global margin %s.
        maxWidth: '100%',
+       borderStyle: 'solid',
+       borderWidth: 1,
+       borderColor: '#ececec',
    } as ViewStyle,
     title: {
        fontSize: 20,
