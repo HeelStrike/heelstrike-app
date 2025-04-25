@@ -15,6 +15,7 @@ interface SearchBarProps extends TextInputProps {
     style?: ViewStyle;
     inputStyle?: TextStyle;
 }
+
 const SearchBar: React.FC<SearchBarProps> = ({
                                                  placeholder = 'Search...',
                                                  onSearch,
@@ -50,11 +51,11 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         backgroundColor: '#ffffff',
-        borderRadius: 10,
+        borderRadius: 5,
         paddingHorizontal: 10,
         height: 40,
         borderWidth: 1,
-        borderColor: '#1c3dff',
+        borderColor: '#ececec',
     },
     input: {
         flex: 1,

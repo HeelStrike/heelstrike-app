@@ -28,6 +28,10 @@ const styles = StyleSheet.create({
        borderStyle: 'solid',
        borderWidth: 1,
        borderColor: '#ececec',
+       shadowColor: '#000',
+       shadowOffset: { width: 0, height: 2 },
+       shadowOpacity: 0.05,
+       shadowRadius: 3.84,
    } as ViewStyle,
     title: {
        fontSize: 20,
