@@ -4,9 +4,8 @@ import { Stack } from 'expo-router';
 import { enableScreens } from 'react-native-screens';
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
-export default function RootLayout() {
+export default function Layout() {
   return (
-      <SafeAreaProvider style={{ flex: 1 }}>
           <Tabs>
               <Tabs.Screen
                   name="index"
@@ -19,7 +18,7 @@ export default function RootLayout() {
               />
 
               <Tabs.Screen
-                  name="workouts/index"
+                  name="workouts"
                   options={{
                       title: 'Workouts',
                       tabBarIcon: ({ color, size }) => (
@@ -29,7 +28,7 @@ export default function RootLayout() {
               />
 
               <Tabs.Screen
-                  name="record/index"
+                  name="record"
                   options={{
                       title: 'Record',
                       tabBarIcon: ({ color, size }) => (
@@ -39,7 +38,7 @@ export default function RootLayout() {
               />
 
               <Tabs.Screen
-                  name="data/index"
+                  name="data"
                   options={{
                       title: 'Data',
                       tabBarIcon: ({ color, size }) => (
@@ -49,7 +48,7 @@ export default function RootLayout() {
               />
 
               <Tabs.Screen
-                  name="nutrition/index"
+                  name="nutrition"
                   options={{
                       title: 'Nutrition',
                       tabBarIcon: ({ color, size }) => (
@@ -58,6 +57,5 @@ export default function RootLayout() {
                   }}
               />
           </Tabs>
-      </SafeAreaProvider>
   );
 }
